@@ -1,8 +1,8 @@
 /* eslint-disable no-use-before-define */
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
-import getProfileData from '../data/data';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
+import getProfileData from "../data/data";
 
 const Background = () => {
   const profileData = getProfileData();
@@ -11,9 +11,15 @@ const Background = () => {
       <Row>
         <Col className="height-100vh d-flex align-items-center">
           <div>
-            <span className="position-absolute background-quote start"><ImQuotesLeft /></span>
-            {profileData.bio.map((item) => (<p className="background-text">{item}</p>))}
-            <span className="position-absolute background-quote end pr-3"><ImQuotesRight /></span>
+            <span className="position-absolute background-quote start">
+              <ImQuotesLeft />
+            </span>
+            {profileData.bio.map((item) => (
+              <p className="background-text">{item}</p>
+            ))}
+            <span className="position-absolute background-quote end pr-3">
+              <ImQuotesRight />
+            </span>
           </div>
         </Col>
       </Row>

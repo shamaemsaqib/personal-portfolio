@@ -1,39 +1,31 @@
 {
-  "name": "fahadachaudhry",
-  "description": "Personal Portfolio Template",
-  "homepage": "https://fahadachaudhry.github.io/portfolio",
-  "version": "1.0.0",
+  "name": "portfolio",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.8.3",
-    "@types/jest": "^26.0.22",
-    "@types/node": "^12.20.7",
-    "@types/react": "^17.0.3",
-    "@types/react-dom": "^17.0.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^4.6.0",
-    "color": "^3.1.3",
-    "node-sass": "^5.0.0",
-    "qrcode.react": "^1.0.1",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.5.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
+    "color": "^4.2.3",
+    "node-sass": "^7.0.1",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-masonry-css": "^1.0.16",
-    "react-particles-js": "^3.4.1",
-    "react-scripts": "4.0.3",
-    "react-switch": "^6.0.0",
-    "typescript": "^4.2.3",
-    "web-vitals": "^1.1.1"
+    "react-scripts": "5.0.1",
+    "react-switch": "^7.0.0",
+    "react-tsparticles": "^2.1.4",
+    "tsparticles": "^2.1.4",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -54,18 +46,10 @@
     ]
   },
   "devDependencies": {
-    "@types/color": "^3.0.1",
-    "@types/qrcode.react": "^1.0.1",
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
-    "eslint": "^7.23.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-typescript": "^12.3.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "gh-pages": "^3.1.0"
+    "@types/color": "^3.0.3",
+    "@types/react-bootstrap": "^0.32.30",
+    "sass": "^1.54.0",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.74.0"
   }
 }
