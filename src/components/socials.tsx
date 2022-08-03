@@ -1,19 +1,18 @@
 /* eslint-disable no-use-before-define */
-import React from 'react';
+import React from "react";
 import {
   FaLinkedinIn,
-  FaBehance,
   FaGithub,
   FaInstagram,
   FaFacebook,
-} from 'react-icons/fa';
-import getProfileData from '../data/data';
+} from "react-icons/fa";
+import getProfileData from "../data/data";
 
-interface ISocialsProps{
+interface ISocialsProps {
   margins?: number[];
 }
 
-const Socials = (props:ISocialsProps) => {
+const Socials = (props: ISocialsProps) => {
   const { margins } = props;
   const profileData = getProfileData();
 
@@ -23,8 +22,14 @@ const Socials = (props:ISocialsProps) => {
       return (
         <a
           className="social-link mt-2 d-block text-center"
-          style={margins!.length === 0 ? undefined : { margin: margins!.map((item) => (`${item}px `)).join(' ') }}
+          style={
+            margins!.length === 0
+              ? undefined
+              : { margin: margins!.map((item) => `${item}px `).join(" ") }
+          }
           href={socialLink[0].url}
+          target="_blank"
+          rel="noreferrer"
         >
           {icon}
         </a>
@@ -35,11 +40,10 @@ const Socials = (props:ISocialsProps) => {
 
   return (
     <>
-      {getSocialData('Github', <FaGithub />)}
-      {getSocialData('LinkedIn', <FaLinkedinIn />)}
-      {getSocialData('Facebook', <FaFacebook />)}
-      {getSocialData('Instagram', <FaInstagram />)}
-      {getSocialData('Behance', <FaBehance />)}
+      {getSocialData("Github", <FaGithub />)}
+      {getSocialData("LinkedIn", <FaLinkedinIn />)}
+      {getSocialData("Facebook", <FaFacebook />)}
+      {getSocialData("Instagram", <FaInstagram />)}
     </>
   );
 };

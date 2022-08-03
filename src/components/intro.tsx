@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particles from "react-tsparticles";
 import avatar from "../assets/images/avatar.jpeg";
 import getProfileData from "../data/data";
-import Testimonial from "./Testimonial";
+// import Testimonial from "./Testimonial";
 import colorStore from "../utils/color-constants";
 import { loadFull } from "tsparticles";
 
@@ -117,6 +117,15 @@ const Intro = (props: IIntroProps) => {
                       {profileData.email}
                     </a>
                   </p>
+                  <button className="btn-custom btn-custom-primary resume-btn">
+                    <a
+                      href={profileData.resume}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      RESUME
+                    </a>
+                  </button>
                 </div>
               </Col>
               {/* <Col lg={3}><Testimonial /></Col> */}
