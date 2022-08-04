@@ -131,7 +131,7 @@ const profile: IProfile = {
   resume:
     "https://drive.google.com/file/d/1Ilgriu72p9EDMiV0riAT5OIHNih6P2uG/view?usp=sharing",
   bio: [
-    "I'm a Lahore-based software engineer who specializes in building (and occasionally designing) exceptional digital experiences. Currently, I'm a Full-stack developer who is open to work and working on Flutter Framework.",
+    "I'm a Lahore-based software engineer who specializes in building (and occasionally designing) exceptional digital experiences. Currently, I'm a Full-stack developer who is open to work and working on Flutter Framework fdljfdlskls.",
   ],
   skills: {
     languages: [
