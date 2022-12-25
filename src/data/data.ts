@@ -108,7 +108,7 @@ const profile: IProfile = {
   socials: [
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/shamaem-saqib-280117198",
+      url: "https://www.linkedin.com/in/shamaemsaqib",
     },
     {
       name: "Behance",
@@ -223,24 +223,14 @@ const profile: IProfile = {
     //   website: "https://www.linkedin.com/company/plan9---pitbs-tech-incubator/",
     // },
     {
-      shortName: "Fiverr",
-      companyName: "Fiverr",
-      endDate: "Present",
-      position: "Freelancer",
-      startDate: "May 2020",
+      shortName: "SIC",
+      companyName: "Samsung Innovation Campus",
+      endDate: "Dec 22",
+      position: "Artificial Intelligence Intern",
+      startDate: "Aug 2022",
       summary:
-        "Been working on Fiverr as Web Developer for more than 1 year and has worked many local and international clients",
-      website: "https://www.fiverr.com/shamaem01?up_rollout=true",
-    },
-    {
-      shortName: "UpWork",
-      companyName: "Upwork",
-      endDate: "Present",
-      position: "Freelancer",
-      startDate: "May 2020",
-      summary:
-        "Been working on Upwork as Web Developer for more than 1 year and has worked many local and international clients",
-      website: "https://www.upwork.com/freelancers/~013af5cfecf84f93b6",
+        "Learned and implemented various algorithms of machine learning and deep learning in this extensive training program. Developed Traffic Sign Recognition System as capstone project using convolutional neural network that detects traffic signs at 98% accuracy and designed documentation for the project. Used the German Traffic Sign Recognition Benchmark (GTSRB) for the project and applied various pre-processing techniques like augmentation and normalization. Designed an interface for the project using Tkinter to test the model real-time.",
+      website: "https://www.samsung.com/pk/innovation-campus/",
     },
   ],
   certifications: [

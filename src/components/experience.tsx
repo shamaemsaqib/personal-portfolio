@@ -52,7 +52,17 @@ const ExperienceCard = (props: {
     <div className="pb-4 pt-3">
       <h5 className="text-bold d-inline-block mr-1">
         {cardData.position}
-        <span className="color-primary"> @{cardData.shortName}</span>
+        <span className="color-primary">
+          <a
+            href={`${cardData.website}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              backgroundColor: "transparent",
+              color: "#EA2E49",
+            }}
+          >{` @${cardData.companyName}`}</a>
+        </span>
       </h5>
       {cardData.startDate !== "" && (
         <p>

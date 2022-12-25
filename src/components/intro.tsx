@@ -2,8 +2,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particles from "react-tsparticles";
-import avatar from "../assets/images/avatar.jpeg";
+import avatar from "../assets/images/avatar.png";
 import getProfileData from "../data/data";
+import Image from "react-bootstrap/Image";
+
 // import Testimonial from "./Testimonial";
 import colorStore from "../utils/color-constants";
 import { loadFull } from "tsparticles";
@@ -89,10 +91,11 @@ const Intro = (props: IIntroProps) => {
             <Row className="align-items-center">
               <Col lg={1}></Col>
               <Col lg={3}>
-                <img
+                <Image
                   src={avatar}
                   alt="avatar"
-                  className="shadow-lg rounded w-100"
+                  className="shadow-lg roundedCircle w-100"
+                  thumbnail
                 />
               </Col>
               <Col lg={1}></Col>
