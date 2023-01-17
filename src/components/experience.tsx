@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <Container className="height-60vh d-flex align-items-center">
       <Row>
-        <Col lg={2} className="main-heading">
+        <Col lg={2} className="main-heading mb-1">
           <h5 className="text-bold">Experience</h5>
         </Col>
         <Col lg={2} className="main-heading">
@@ -50,7 +50,7 @@ const ExperienceCard = (props: {
   }
   return (
     <div className="pb-4 pt-3">
-      <h5 className="text-bold d-inline-block mr-1">
+      <h5 className="experience-header text-bold d-inline-block mr-1">
         {cardData.position}
         <span className="color-primary">
           <a

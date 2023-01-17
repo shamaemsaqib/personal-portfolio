@@ -10,7 +10,7 @@ const Projects = () => {
     <Container className="pt-5 pb-5">
       <Row>
         <Col md={2} className="main-heading">
-          <h5 className="text-bold">Other Projects</h5>
+          <h5 className="text-bold mb-2">Projects</h5>
         </Col>
         <Col md={10}>
           <Masonry

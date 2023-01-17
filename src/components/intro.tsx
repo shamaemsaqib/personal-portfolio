@@ -87,14 +87,14 @@ const Intro = (props: IIntroProps) => {
           className="position-absolute w-100 h-100 d-none d-lg-block"
         />
         <Col>
-          <Container className="height-100vh d-flex align-items-center intro pt-4 pb-4 position-relative">
+          <Container className="height-100vh d-flex align-items-center  intro pt-1 position-relative">
             <Row className="align-items-center">
               <Col lg={1}></Col>
               <Col lg={3}>
                 <Image
                   src={avatar}
                   alt="avatar"
-                  className="shadow-lg roundedCircle w-100"
+                  className="intro-avatar shadow-lg roundedCircle"
                   thumbnail
                 />
               </Col>

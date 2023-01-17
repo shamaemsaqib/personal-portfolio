@@ -138,6 +138,12 @@ body {
   overflow: hidden;
 }
 
+@media screen and (max-width: 768px) {
+  .my-masonry-grid_column > div {
+    margin-right: 0px;
+  }
+}
+
 .height-60vh {
   min-height: 60vh;
 }
@@ -197,6 +203,19 @@ ul {
 
 .intro-email {
   display: none;
+}
+
+.intro-avatar {
+  width: 100%;
+}
+
+@media screen and (max-width: 786px) {
+  .intro {
+    font-size: 15px;
+  }
+  .intro-avatar {
+    width: 40%;
+  }
 }
 
 .main-heading {
@@ -412,6 +431,10 @@ ul {
   z-index: 2;
 }
 
+.background-container {
+  min-height: 100vh;
+}
+
 .background-quote {
   font-size: 100px;
   margin: 0px;
@@ -429,6 +452,34 @@ ul {
   font-size: 32px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .background-container {
+    min-height: 70vh;
+  }
+
+  .background-text {
+    font-size: 20px;
+  }
+
+  .background-quote {
+    font-size: 70px;
+    margin: 0px;
+    opacity: 0.1;
+    &.start {
+      margin-top: -70px;
+    }
+    &.end {
+      right: 20px;
+      margin-top: -70px;
+    }
+  }
+
+  .experience-header {
+    font-size: 1.2rem;
+  }
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -478,4 +529,16 @@ ul {
   font-size: 20px;
   text-align: center;
   width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .what-next-text {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .what-next-text {
+    width: 90%;
+  }
 }

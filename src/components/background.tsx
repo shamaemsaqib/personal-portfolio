@@ -7,9 +7,9 @@ import getProfileData from "../data/data";
 const Background = () => {
   const profileData = getProfileData();
   return (
-    <Container className="pt-5 pb-5">
+    <Container className="background-container d-flex align-items-center pb-5">
       <Row>
-        <Col className="height-100vh d-flex align-items-center">
+        <Col className="h-100 d-flex align-items-center">
           <div>
             <span className="position-absolute background-quote start">
               <ImQuotesLeft />

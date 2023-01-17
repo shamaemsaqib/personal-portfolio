@@ -234,6 +234,12 @@ const profile: IProfile = {
     },
   ],
   certifications: [
+    {
+      name: "Artificial  Intelligence Cohort",
+      issuedBy: "Samsung Innovation Campus",
+      verificationURL:
+        "https://drive.google.com/file/d/1vgGit0DPUom99Hm6umkL687lzWNO3Dwx/view?usp=sharing",
+    },
     // {
     //   name: "Front End Libraries",
     //   issuedBy: "freeCodeCamp",
